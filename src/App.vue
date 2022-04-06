@@ -15,6 +15,11 @@
 export default {
   name: 'App',
 
+
+  mounted(){
+    this.$store.commit("increment");
+    console.log(this.$store.state.var1)
+  },
 }
 </script>
 
