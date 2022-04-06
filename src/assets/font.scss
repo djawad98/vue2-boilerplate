@@ -1,0 +1,189 @@
+﻿
+
+@if $prefered-font == iransansweb {
+  /**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		5.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Sep 01, 2017
+*	Website:		             http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*
+**/
+  @font-face {
+    font-family: iransansweb;
+    font-style: normal;
+    font-weight: 900;
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Black.eot");
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Black.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff2/IRANSansWeb(FaNum)_Black.woff2") format("woff2"),
+      /* FF39+,Chrome36+, Opera24+*/ url("#{$font-url-prefix}/woff/IRANSansWeb(FaNum)_Black.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/IRANSansWeb(FaNum)_Black.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: iransansweb;
+    font-style: normal;
+    font-weight: bold;
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Bold.eot");
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff2/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+      /* FF39+,Chrome36+, Opera24+*/ url("#{$font-url-prefix}/woff/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: iransansweb;
+    font-style: normal;
+    font-weight: 500;
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Medium.eot");
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff2/IRANSansWeb(FaNum)_Medium.woff2") format("woff2"),
+      /* FF39+,Chrome36+, Opera24+*/ url("#{$font-url-prefix}/woff/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/IRANSansWeb(FaNum)_Medium.ttf")
+        format("truetype");
+  }
+  @font-face {
+    font-family: iransansweb;
+    font-style: normal;
+    font-weight: 300;
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Light.eot");
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_Light.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff2/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+      /* FF39+,Chrome36+, Opera24+*/ url("#{$font-url-prefix}/woff/IRANSansWeb(FaNum)_Light.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/IRANSansWeb(FaNum)_Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: iransansweb;
+    font-style: normal;
+    font-weight: 200;
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_UltraLight.eot");
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff2/IRANSansWeb(FaNum)_UltraLight.woff2") format("woff2"),
+      /* FF39+,Chrome36+, Opera24+*/ url("#{$font-url-prefix}/woff/IRANSansWeb(FaNum)_UltraLight.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/IRANSansWeb(FaNum)_UltraLight.ttf")
+        format("truetype");
+  }
+  @font-face {
+    font-family: iransansweb;
+    font-style: normal;
+    font-weight: normal;
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum).eot");
+    src: url("#{$font-url-prefix}/eot/IRANSansWeb(FaNum).eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff2/IRANSansWeb(FaNum).woff2") format("woff2"),
+      /* FF39+,Chrome36+, Opera24+*/ url("#{$font-url-prefix}/woff/IRANSansWeb(FaNum).woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/IRANSansWeb(FaNum).ttf") format("truetype");
+  }
+}
+
+@if $prefered-font == iranyekanweb {
+  /**
+  *
+  *	Name:			IRANYekan Font
+  *	Version:			3.0
+  *	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+  *	Created on:		Dec 20, 2018
+  *	Updated on:		Dec 20, 2018
+  *	Website:			http://fontiran.com
+  *	Copyright:		Commercial/Proprietary Software
+  --------------------------------------------------------------------------------------
+  فونت ایران یکان یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+  --------------------------------------------------------------------------------------
+  IRANYekan fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+  --------------------------------------------------------------------------------------
+  This set of fonts are used in this project under the license: (.....)
+  --------------------------------------------------------------------------------------
+  *
+  **/
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: bold;
+    src: url("#{$font-url-prefix}/eot/iranyekanwebboldfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanwebboldfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanwebboldfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanwebboldfanum.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: 100;
+    src: url("#{$font-url-prefix}/eot/iranyekanwebthinfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanwebthinfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanwebthinfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanwebthinfanum.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: 300;
+    src: url("#{$font-url-prefix}/eot/iranyekanweblightfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanweblightfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanweblightfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanweblightfanum.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: normal;
+    src: url("#{$font-url-prefix}/eot/iranyekanwebregularfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanwebregularfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanwebregularfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanwebregularfanum.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: 500;
+    src: url("#{$font-url-prefix}/eot/iranyekanwebmediumfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanwebmediumfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanwebmediumfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanwebmediumfanum.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: 800;
+    src: url("#{$font-url-prefix}/eot/iranyekanwebextraboldfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanwebextraboldfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanwebextraboldfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanwebextraboldfanum.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: 850;
+    src: url("#{$font-url-prefix}/eot/iranyekanwebblackfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanwebblackfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanwebblackfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanwebblackfanum.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: iranyekanweb;
+    font-style: normal;
+    font-weight: 900;
+    src: url("#{$font-url-prefix}/eot/iranyekanwebextrablackfanum.eot");
+    src: url("#{$font-url-prefix}/eot/iranyekanwebextrablackfanum.eot?#iefix") format("embedded-opentype"),
+      /* IE6-8 */ url("#{$font-url-prefix}/woff/iranyekanwebextrablackfanum.woff") format("woff"),
+      /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("#{$font-url-prefix}/ttf/iranyekanwebextrablackfanum.ttf") format("truetype");
+  }
+}
+
+
+.font-#{$prefered-font} *:not(i) {
+    font-family: #{$prefered-font}!important;
+}

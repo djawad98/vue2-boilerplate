@@ -7,7 +7,7 @@
 
 <script>
 
-import 'tailwindcss/tailwind.css';
+
 
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -20,14 +20,22 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import 'tailwindcss/tailwind.css';
+@import './assets/custom.scss';
+@import './assets/font.scss';
+
+body {
+  font-family: $prefered-font;
 }
+
+// #app {
+//   font-family: Avenir, Helvetica, Arial, sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   text-align: center;
+//   color: #2c3e50;
+//   margin-top: 60px;
+// }
 </style>
