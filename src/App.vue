@@ -15,7 +15,12 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
+
+  mounted(){
+    this.$store.commit("increment");
+    console.log(this.$store.state.var1)
+  },
 }
 </script>
 
